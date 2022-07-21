@@ -118,10 +118,24 @@ body {
   top: 0.7rem;
   left: 1rem;
 }
-.icon-contacts:hover {
+.contact-img:hover {
   opacity: 0.5;
   transform: scale(1.2);
 }
 .btn:hover {
   background: rgb(17, 72, 127);
+}
+.gmail {
+  width: 30px;
+  height: 37px;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+}
+
+.git,
+.linkedin {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
