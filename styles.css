@@ -139,3 +139,29 @@ body {
   height: 30px;
   cursor: pointer;
 }
+.scroll-down {
+  position: relative;
+}
+.scroll-text {
+  display: inline-block;
+  position: absolute;
+  right: 4.5rem;
+  top: 5.7rem;
+  color: white;
+  font-size: 1.3rem;
+}
+.scroll-down-text {
+  position: absolute;
+  right: 5.5rem;
+  top: 8.5rem;
+  color: white;
+  font-size: 1rem;
+  opacity: 0.5;
+}
+
+.scroll-img {
+  position: absolute;
+  top: 7rem;
+  right: 1rem;
+  cursor: pointer;
+}
