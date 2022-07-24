@@ -199,6 +199,7 @@ a {
   }
 }
 .section-about {
+  width: 100%;
   margin-top: 6rem;
 }
 .about {
@@ -209,6 +210,7 @@ a {
 }
 .about-img {
   width: 100%;
+  max-width: ;
   border-radius: 100px;
 }
 .about-me {
@@ -219,12 +221,14 @@ a {
   .about {
     margin-top: 15rem;
     flex-direction: row;
-    gap: 2rem;
+    gap: 5rem;
   }
   .about-img {
+    margin-left: 5rem;
     max-width: 550px;
   }
   .about-me {
+    margin-right: 5rem;
     margin-top: 5rem;
   }
 }
