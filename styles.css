@@ -198,10 +198,10 @@ a {
     cursor: pointer;
   }
 }
-
+.section-about {
+  margin-top: 6rem;
+}
 .about {
-  width: 500px;
-  height: 500px;
   margin-top: 7rem;
   margin-left: 1rem;
   display: flex;
@@ -209,8 +209,22 @@ a {
 }
 .about-img {
   width: 100%;
+  border-radius: 100px;
 }
 .about-me {
   font-size: 1.5rem;
   color: white;
+}
+@media screen and (min-width: 768px) {
+  .about {
+    margin-top: 15rem;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .about-img {
+    max-width: 550px;
+  }
+  .about-me {
+    margin-top: 5rem;
+  }
 }
