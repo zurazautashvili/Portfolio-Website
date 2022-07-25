@@ -1,5 +1,8 @@
 "use strict";
 
-document.querySelector('.icon-menu') addEventListener("click", function () {
-  document.querySelectorAll('.list')style.display = 'block';
+const menu = document.querySelector(".icon-menu");
+const list = document.querySelector(".list");
+menu.addEventListener("click", function () {
+  menu.classList.add("hidden");
+  list.classList.remove("hidden");
 });
