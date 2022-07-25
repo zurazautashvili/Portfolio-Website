@@ -34,9 +34,6 @@ a {
   display: none;
 }
 .list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   position: relative;
   right: 40%;
   top: 1rem;

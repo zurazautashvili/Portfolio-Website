@@ -5,4 +5,5 @@ const list = document.querySelector(".list");
 menu.addEventListener("click", function () {
   menu.classList.add("hidden");
   list.classList.remove("hidden");
+  document.querySelectoral(".list-item").classList.remove("hidden");
 });
