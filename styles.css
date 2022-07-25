@@ -56,7 +56,11 @@ a {
 }
 .list-item {
   list-style: none;
+  color: rgba(255, 255, 255, 0.845);
+}
+.list-item:hover {
   color: white;
+  border-bottom: 1px solid rgb(37, 178, 225);
 }
 @media screen and (min-width: 768px) {
   .list {
@@ -73,9 +77,6 @@ a {
     position: relative;
     bottom: 1rem;
     cursor: pointer;
-  }
-  .list-item:hover {
-    border-bottom: 1px solid rgb(37, 178, 225);
   }
   .name {
     padding: 0;
