@@ -264,15 +264,18 @@ a {
   font-size: 2.5rem;
 }
 .project-list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
   color: white;
-  margin-left: 12rem;
-  margin-top: 2rem;
 }
-.project {
-  width: 50%;
-}
+
 .screenshot {
   width: 100%;
+  margin-top: 1rem;
+}
+
+.project--link:hover {
+  opacity: 0.5;
 }
