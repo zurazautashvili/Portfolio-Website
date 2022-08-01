@@ -33,11 +33,15 @@ a {
 .hidden {
   display: none;
 }
+.shrank {
+  font-size: 1.2rem;
+}
 .list {
   position: relative;
-  right: 40%;
+  right: 30%;
   top: 1rem;
 }
+
 .list-item {
   padding: 0.5rem 0.7rem;
   border-bottom: 1px solid lightblue;
@@ -47,6 +51,7 @@ a {
   bottom: 1.5rem;
   right: 0.5rem;
   color: white;
+  cursor: pointer;
 }
 .collapsible {
   display: none;
@@ -84,7 +89,7 @@ a {
     bottom: 1rem;
     cursor: pointer;
   }
-  .name {
+  .siteName {
     padding: 0;
     font-size: 1.6rem;
   }
@@ -96,7 +101,7 @@ a {
   cursor: pointer;
 }
 
-.name {
+.siteName {
   display: inline-block;
   margin: 0;
   padding: 0.5rem 0.7rem;
